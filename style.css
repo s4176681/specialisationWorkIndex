@@ -61,6 +61,10 @@ main {
     align-items: center;
 }
 
+section {
+    max-width: 80rch;
+}
+
 aside {
     visibility: hidden;
     flex: 1;
@@ -69,7 +73,6 @@ aside {
 footer {
     display: flex;
     justify-content: center;
-    margin-block-start: 3rem;
 }
 
 /*technique from Kevin Powell*/
