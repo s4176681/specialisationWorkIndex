@@ -38,6 +38,16 @@ header {
     display: flex;
     justify-content: center;
     margin-block-end: 3rem;
+    padding-block: 1.5rem;
+    text-align: center; /*need to make that heading look centered*/
+}
+
+p {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
 }
 
 .mainNavContainer {
