@@ -46,12 +46,23 @@ h1 {
     max-width: fit-content; /*Added this to make the title 1 line*/
 }
 
-p {
-    text-align: left;
+h3 {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+    /*searched online to help me create gradient text*/
+    background: linear-gradient(90deg, #fb7500ff, #59f306);
+    background-clip: text;
+    -webkit-background-clip: text; /*browser requires webkit*/
+    color: transparent;
 }
 
-h3 {
-    text-align: center;
+p {
+    text-align: left;
+    padding: 10px;
+    text-wrap: pretty;
 }
 
 .mainNavContainer {
@@ -67,7 +78,7 @@ nav {
     min-width: fit-content;
     flex: 1;
     align-items: flex-end;
-    
+
 }
 
 main {
