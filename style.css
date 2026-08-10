@@ -37,9 +37,13 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin-block-end: 3rem;
-    padding-block: 1.5rem;
+    margin-block-end: 2rem;
+    padding-block: 1rem;
     text-align: center; /*need to make that heading look centered*/
+}
+
+h1 {
+    max-width: fit-content; /*Added this to make the title 1 line*/
 }
 
 p {
@@ -63,6 +67,7 @@ nav {
     min-width: fit-content;
     flex: 1;
     align-items: flex-end;
+    
 }
 
 main {
