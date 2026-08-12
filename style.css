@@ -59,6 +59,11 @@ h3 {
     color: transparent;
 }
 
+h4 {
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
 p {
     text-align: left;
     padding: 10px;
