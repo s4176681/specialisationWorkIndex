@@ -97,6 +97,10 @@ section {
     max-width: 90rch;
 }
 
+.body-text{
+    justify-content: center;
+}
+
 aside {
     visibility: hidden;
     flex: 1;
